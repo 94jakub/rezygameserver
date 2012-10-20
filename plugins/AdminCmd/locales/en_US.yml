@@ -1,0 +1,16 @@
+﻿MOTD: '§6Vitaj §f%player §6,je tu §4%nb hracov:
+
+  §6%connected
+
+  §2Spolu si hral: §b#elapsedTotalTime#
+
+  §2Posledne prihlasenie: §b%lastlogin'
+MOTDNewUser: '§6Vitaj §f%player §6,je tu §4%nb hracov:
+
+  §6%connected'
+NEWS: '§fNOVINKY: §fnic'
+Rules: '1. Do not grief!
+
+  2. Do not use strong language!
+
+  3. Be friendly to other players!'

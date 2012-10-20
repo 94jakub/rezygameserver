@@ -1,0 +1,84 @@
+tools:
+  tool:
+    defaultEnabled: true
+    mode: LOOKUP
+    aliases:
+    - t
+    params: area 0 all sum none limit 15 desc silent
+    leftClickBehavior: NONE
+    item: 270
+    rightClickBehavior: TOOL
+    permissionDefault: 'TRUE'
+    canDrop: true
+  toolblock:
+    params: area 0 all sum none limit 15 desc silent
+    permissionDefault: 'TRUE'
+    rightClickBehavior: BLOCK
+    item: 7
+    mode: LOOKUP
+    defaultEnabled: true
+    aliases:
+    - tb
+    leftClickBehavior: TOOL
+    canDrop: false
+mysql:
+  user: admin
+  port: 3306
+  host: localhost
+  database: minecraft
+  password: asdasd
+logging:
+  hiddenBlocks:
+  - 0
+  logCreeperExplosionsAsPlayerWhoTriggeredThese: false
+  logPlayerInfo: true
+  hiddenPlayers: []
+  logKillsLevel: PLAYERS
+consumer:
+  timePerRun: 200
+  useBukkitScheduler: true
+  forceToProcessAtLeast: 20
+  delayBetweenRuns: 6
+lookup:
+  linesLimit: 1500
+  defaultTime: 30 minutes
+  defaultDist: 20
+  linesPerPage: 15
+questioner:
+  askClearLogs: false
+  banPermission: mcbans.ban.local
+  askRollbacks: false
+  askRedos: false
+  askClearLogAfterRollback: false
+  askRollbackAfterBan: false
+updater:
+  checkVersion: true
+  installSpout: true
+loggedWorlds:
+- spawn
+- world
+- world_nether
+clearlog:
+  enableAutoClearLog: true
+  auto:
+  - world "world" before 60 days all
+  - world "world" player lavaflow waterflow leavesdecay before 7 days all
+  - world world_nether before 60 days all
+  - world world_nether player lavaflow before 7 days all
+  dumpDeletedLog: false
+  autoClearLogDelay: 6h
+rollback:
+  replaceAnyway:
+  - 8
+  - 9
+  - 10
+  - 11
+  - 51
+  maxArea: 50
+  dontRollback:
+  - 10
+  - 11
+  - 46
+  - 51
+  maxTime: 2 days
+version: '1.52'

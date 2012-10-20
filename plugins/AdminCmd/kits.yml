@@ -1,0 +1,16 @@
+﻿kits:
+    vybavenie:
+        delay: -1
+        items:
+            '267' : 1
+            '256' : 1
+            '257' : 1
+            '258' : 1
+    drevo:
+        delay: 86400
+        items:
+          '17': 64
+    zelezo:
+        delay: 86400
+        items:
+          '265': 16

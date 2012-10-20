@@ -1,0 +1,16 @@
+#CAREFULL! Don't set
+#decrease_item_stack_on_creation to false and
+#give_item_back_on_deletion to true
+#or else players will be able to create displays and receive items back
+#unless it's the way you want you should change them
+version: 1.3
+decrease_item_stack_on_creation: false
+give_item_back_on_deletion: false
+force_public_displays: false
+max_player_displays: 100
+block_default: true
+allow_blocks:
+  - COBBLESTONE
+  - STONE
+deny_blocks:
+  - BEDROCK

@@ -1,0 +1,2 @@
+﻿&6Vitaj &f%player &6,je tu &4%nb hracov:
+&6%connected

@@ -1,0 +1,171 @@
+Version: 1
+Seed: 7628864190123613708
+Residences:
+  admin_4:
+    EnterMessage: 'Vitajte u moderatora VEXTER22 '
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: Opustas %residence.
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: -60
+        Y1: 255
+        Z1: 68
+        X2: -91
+        Y2: 0
+        Z2: 37
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        vexter22:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: false
+        container: true
+        tnt: false
+        ignite: false
+        piston: true
+        use: true
+        creeper: false
+        flow: true
+        monsters: false
+        build: false
+      Owner: vexter22
+      World: spawn
+    StoredMoney: 0
+  admin_3:
+    EnterMessage: Vitaj %player na %residence, vlastnik je %owner.
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: Opustas %residence.
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: -25
+        Y1: 255
+        Z1: 68
+        X2: -56
+        Y2: 0
+        Z2: 37
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        p3ude:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: false
+        container: true
+        tnt: false
+        ignite: false
+        piston: true
+        use: true
+        creeper: false
+        flow: false
+        monsters: false
+        build: false
+      Owner: p3ude
+      World: spawn
+    StoredMoney: 0
+  admin_2:
+    EnterMessage: Vitaj %player na %residence, vlastnik je %owner.
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: Opustas %residence.
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: -60
+        Y1: 255
+        Z1: 36
+        X2: -91
+        Y2: 0
+        Z2: 5
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        94jakub:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: false
+        container: true
+        tnt: false
+        ignite: false
+        piston: true
+        use: true
+        creeper: false
+        flow: false
+        build: false
+        monsters: false
+      Owner: 94jakub
+      World: spawn
+    StoredMoney: 0
+  admin_1:
+    EnterMessage: Vitaj %player na %residence, vlastnik je %owner.
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: Opustas %residence.
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: -25
+        Y1: 255
+        Z1: 36
+        X2: -56
+        Y2: 0
+        Z2: 5
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        jankokuk:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: true
+        container: true
+        tnt: false
+        ignite: false
+        piston: true
+        use: true
+        creeper: false
+        flow: false
+        monsters: false
+        build: false
+      Owner: Jankokuk
+      World: spawn
+    StoredMoney: 0

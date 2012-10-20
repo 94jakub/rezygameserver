@@ -1,0 +1,21 @@
+portals:
+  stw:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: Jankokuk
+    location: 6.0,32.0,-11.0:6.0,36.0,-8.0
+    world: spawn
+    destination: p:wts
+  wts:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: Jankokuk
+    location: -226.0,64.0,185.0:-223.0,67.0,185.0
+    world: world
+    destination: p:stw

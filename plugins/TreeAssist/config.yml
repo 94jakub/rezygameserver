@@ -1,0 +1,22 @@
+Main:
+  Automatic Tree Destruction: true
+  Use Permissions: false
+  Sapling Replant: true
+  Leaf Decay Rate: 100
+Automatic Tree Destruction:
+  Tree Types:
+    Birch: true
+    Jungle: true
+    Oak: true
+    Spruce: true
+Sapling Replant:
+  Bottom Block has to be Broken First: true
+Tools:
+  Sapling Replant Require Tools: false
+  Tree Destruction Require Tools: false
+  Tools List:
+  - DIAMOND_AXE
+  - WOOD_AXE
+  - GOLD_AXE
+  - IRON_AXE
+  - STONE_AXE

@@ -1,0 +1,357 @@
+groups:
+  default:
+    default: true
+    prefix: '&7'
+    permissions:
+    - admincmd.kit.vybavenie
+    - admincmd.server.motd
+    - admincmd.server.rules
+    - admincmd.server.news
+    - admincmd.player.list
+    - admincmd.player.afk
+    - admincmd.spawn.tp
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.help
+    - iConomy.payment
+    - residence.create
+    - creativegates.*
+    - admincmd.tp.home
+    - admincmd.tp.back
+    - treeassist.autoremove
+    - multiverse.portal.access.*
+    worlds:
+      vip:
+        prefix: '&f*vip* &7'
+      spawn:
+        prefix: '&f*spawn* &7'
+        permissions:
+        - modifyworld.*
+      world:
+        prefix: '&f*svet* &7'
+        permissions:
+        - modifyworld.*
+      world_nether:
+        prefix: '&f*peklo* &7'
+        permissions:
+        - modifyworld.*
+      world_the_end:
+        prefix: '&f*end* &7'
+  hrac:
+    default: false
+    prefix: '&f[+] &7'
+    permissions:
+    - admincmd.kit.vybavenie
+    - admincmd.server.motd
+    - admincmd.server.rules
+    - admincmd.server.news
+    - admincmd.player.list
+    - admincmd.player.afk
+    - admincmd.spawn.tp
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.help
+    - iConomy.payment
+    - residence.create
+    - creativegates.*
+    - admincmd.tp.back
+    - admincmd.tp.home
+    - treeassist.autoremove
+    - multiverse.portal.access.*
+    worlds:
+      vip:
+        prefix: '&f*vip* [+] &7'
+      spawn:
+        prefix: '&f*spawn* [+] &7'
+        permissions:
+        - modifyworld.*
+      world:
+        prefix: '&f*svet* [+] &7'
+        permissions:
+        - modifyworld.*
+      world_nether:
+        prefix: '&f*peklo* [+] &7'
+        permissions:
+        - modifyworld.*
+      world_the_end:
+        prefix: '&f*end* [+] &7'
+  vip:
+    default: false
+    prefix: '&e[VIP] &7'
+    permissions:
+    - admincmd.kit.vybavenie
+    - admincmd.item.repair
+    - admincmd.item.repairall
+    - admincmd.item.color
+    - admincmd.item.id
+    - admincmd.server.motd
+    - admincmd.server.rules
+    - admincmd.server.news
+    - admincmd.player.list
+    - admincmd.player.afk
+    - admincmd.player.heal
+    - admincmd.player.feed
+    - admincmd.spawn.tp
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.help
+    - iConomy.payment
+    - residence.create
+    - admincmd.tp.home
+    - creativegates.*
+    - admincmd.tp.back
+    - treeassist.autoremove
+    - multiverse.portal.access.*
+    worlds:
+      vip:
+        prefix: '&f*vip* &e[VIP] &7'
+      spawn:
+        prefix: '&f*spawn* &e[VIP] &7'
+        permissions:
+        - modifyworld.*
+      world:
+        prefix: '&f*svet* &e[VIP] &7'
+        permissions:
+        - modifyworld.*
+      world_nether:
+        prefix: '&f*peklo* &e[VIP] &7'
+        permissions:
+        - modifyworld.*
+      world_the_end:
+        prefix: '&f*end* &e[VIP] &7'
+  vipplus:
+    default: false
+    prefix: '&1[VIP+] &7'
+    permissions:
+    - admincmd.kit.vybavenie
+    - admincmd.item.repair
+    - admincmd.item.repairall
+    - admincmd.item.color
+    - admincmd.item.id
+    - admincmd.server.motd
+    - admincmd.server.rules
+    - admincmd.server.news
+    - admincmd.player.list
+    - admincmd.tp.home
+    - admincmd.player.afk
+    - admincmd.player.heal
+    - admincmd.player.feed
+    - admincmd.spawn.tp
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.help
+    - iConomy.payment
+    - residence.create
+    - creativegates.*
+    - admincmd.tp.back
+    - treeassist.autoremove
+    - multiverse.portal.access.*
+    worlds:
+      vip:
+        prefix: '&f*vip* &1[VIP+] &7'
+      spawn:
+        prefix: '&f*spawn* &1[VIP+] &7'
+        permissions:
+        - modifyworld.*
+      world:
+        prefix: '&f*svet* &1[VIP+] &7'
+        permissions:
+        - modifyworld.*
+      world_nether:
+        prefix: '&f*peklo* &1[VIP+] &7'
+        permissions:
+        - modifyworld.*
+      world_the_end:
+        prefix: '&f*end* &1[VIP+] &7'
+  pomocnik:
+    default: false
+    prefix: '&b[POMOCNIK] &7'
+    permissions:
+    - admincmd.kit.vybavenie
+    - admincmd.server.motd
+    - admincmd.server.rules
+    - admincmd.server.news
+    - admincmd.player.list
+    - admincmd.player.afk
+    - admincmd.spawn.tp
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.help
+    - iConomy.payment
+    - residence.create
+    - creativegates.*
+    - admincmd.tp.back
+    - admincmd.tp.home
+    - treeassist.autoremove
+    - multiverse.portal.access.*
+    worlds:
+      vip:
+        prefix: '&f*vip* &b[POMOCNIK] &7'
+      spawn:
+        prefix: '&f*spawn* &b[POMOCNIK] &7'
+        permissions:
+        - modifyworld.*
+      world:
+        prefix: '&f*svet* &b[POMOCNIK] &7'
+        permissions:
+        - modifyworld.*
+      world_nether:
+        prefix: '&f*peklo* &b[POMOCNIK] &7'
+        permissions:
+        - modifyworld.*
+      world_the_end:
+        prefix: '&f*end* &b[POMOCNIK] &7'
+  mod:
+    default: false
+    prefix: '&2[MOD] &7'
+    permissions:
+    - admincmd.kit.vybavenie
+    - admincmd.item.repair
+    - admincmd.item.repairall
+    - admincmd.item.repair.other
+    - admincmd.item.repairall.other
+    - admincmd.item.color
+    - admincmd.item.id
+    - admincmd.server.motd
+    - admincmd.server.rules
+    - admincmd.server.news
+    - admincmd.player.list
+    - admincmd.player.afk
+    - admincmd.player.heal
+    - admincmd.player.feed
+    - admincmd.player.loc
+    - admincmd.player.loc.other
+    - admincmd.player.kick
+    - admincmd.player.ip
+    - admincmd.player.ip.other
+    - admincmd.player.mute
+    - admincmd.player.ban
+    - admincmd.player.god
+    - admincmd.player.fly
+    - admincmd.player.eternal
+    - admincmd.spawn.tp
+    - admincmd.tp.*
+    - admincmd.time.*
+    - admincmd.weather.*
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.help
+    - residence.create
+    - iConomy.payment
+    - creativegates.*
+    - treeassist.autoremove
+    - multiverse.portal.access.*
+    worlds:
+      vip:
+        prefix: '&f*vip* &2[MOD] &7'
+      spawn:
+        prefix: '&f*spawn* &2[MOD] &7'
+        permissions:
+        - modifyworld.*
+      world:
+        prefix: '&f*svet* &2[MOD] &7'
+        permissions:
+        - modifyworld.*
+      world_nether:
+        prefix: '&f*peklo* &2[MOD] &7'
+        permissions:
+        - modifyworld.*
+      world_the_end:
+        prefix: '&f*end* &2[MOD] &7'
+  admin:
+    default: false
+    prefix: '&3[ADMIN] &7'
+    permissions:
+    - admincmd.kit.vybavenie
+    - admincmd.item.repair
+    - admincmd.item.repairall
+    - admincmd.item.repair.other
+    - admincmd.item.repairall.other
+    - admincmd.item.color
+    - admincmd.item.id
+    - admincmd.server.motd
+    - admincmd.server.rules
+    - admincmd.server.news
+    - admincmd.player.list
+    - admincmd.player.afk
+    - admincmd.player.heal
+    - admincmd.player.heal.other
+    - admincmd.player.feed
+    - admincmd.player.feed.other
+    - admincmd.player.loc
+    - admincmd.player.loc.other
+    - admincmd.player.kick
+    - admincmd.player.ip
+    - admincmd.player.ip.other
+    - admincmd.player.mute
+    - admincmd.player.ban
+    - admincmd.player.god
+    - admincmd.player.fly
+    - admincmd.player.fly.other
+    - admincmd.player.eternal
+    - admincmd.player.eternal.other
+    - admincmd.player.kill
+    - admincmd.player.kill.other
+    - admincmd.player.clear
+    - admincmd.player.freeze
+    - admincmd.player.clear.other
+    - admincmd.spawn.tp
+    - admincmd.tp.*
+    - admincmd.time.*
+    - admincmd.weather.*
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.help
+    - iConomy.payment
+    - residence.create
+    - creativegates.*
+    - treeassist.autoremove
+    - multiverse.portal.access.*
+    worlds:
+      vip:
+        prefix: '&f*vip* &3[ADMIN] &7'
+      spawn:
+        prefix: '&f*spawn* &3[ADMIN] &7'
+        permissions:
+        - modifyworld.*
+      world:
+        prefix: '&f*svet* &3[ADMIN] &7'
+        permissions:
+        - modifyworld.*
+      world_nether:
+        prefix: '&f*peklo* &3[ADMIN] &7'
+        permissions:
+        - modifyworld.*
+      world_the_end:
+        prefix: '&f*end* &3[ADMIN] &7'
+  majitel:
+    default: false
+    prefix: '&4[MAJITEL] &7'
+    permissions:
+    - '*'
+    - lockette.admin.bypass
+    - lockette.admin.snoop
+    worlds:
+      vip:
+        prefix: '&f*vip* &4[MAJITEL] &7'
+      spawn:
+        prefix: '&f*spawn* &4[MAJITEL] &7'
+      world:
+        prefix: '&f*svet* &4[MAJITEL] &7'
+      world_nether:
+        prefix: '&f*peklo* &4[MAJITEL] &7'
+      world_the_end:
+        prefix: '&f*end* &4[MAJITEL] &7'
+users:
+  Jankokuk:
+    group:
+    - majitel
+  94jakub:
+    group:
+    - admin
+  p3ude:
+    group:
+    - admin
+  VEXTER22:
+    group:
+    - mod

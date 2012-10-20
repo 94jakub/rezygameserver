@@ -1,0 +1,128 @@
+Version: 1
+Seed: 8240330675198409955
+Residences:
+  spawn:
+    EnterMessage: 'Vitaj na hlavnom svete '
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: 'Opustas spawn '
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: -217
+        Y1: 255
+        Z1: 194
+        X2: -227
+        Y2: 0
+        Z2: 184
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        jankokuk:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: false
+        container: true
+        tnt: false
+        ignite: false
+        piston: true
+        use: true
+        creeper: false
+        flow: false
+        build: false
+      Owner: jankokuk
+      World: world
+    StoredMoney: 0
+  Jankokuk:
+    EnterMessage: Vitaj %player na %residence, vlastnik je %owner.
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: Opustas %residence.
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: -116
+        Y1: 255
+        Z1: 347
+        X2: -179
+        Y2: 0
+        Z2: 284
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        jankokuk:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: false
+        container: true
+        tnt: false
+        ignite: false
+        piston: true
+        use: true
+        creeper: false
+        flow: false
+        monsters: false
+        build: false
+      Owner: Jankokuk
+      World: world
+    StoredMoney: 0
+  VEXTER22:
+    EnterMessage: Vitaj %player na %residence, vlastnik je %owner.
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: Opustas %residence.
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: -112
+        Y1: 88
+        Z1: -422
+        X2: -124
+        Y2: 85
+        Z2: -447
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        vexter22:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: false
+        container: true
+        tnt: false
+        ignite: false
+        piston: true
+        use: true
+        creeper: false
+        flow: false
+        monsters: false
+        build: false
+      Owner: VEXTER22
+      World: world
+    StoredMoney: 0

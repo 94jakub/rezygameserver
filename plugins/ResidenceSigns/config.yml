@@ -1,0 +1,17 @@
+ResidenceSignsVersion: 1.5
+# 
+# ResidenceSigns
+# by Silentnight18
+# 
+# Configuration File
+# 
+#
+
+# This option if you want the Residence to be removed from the market when the owner breaks the Sign.
+RemoveFromMarketOnBreak: true
+
+# Due to the massive amount of T_T requesting this feature, you can now turn off Unrenting Apartments via right-clicking.
+UnrentOnRightClick: false
+
+# The default Language you would like ResidenceSigns to use, you must have the translated yml file in the Language Folder.
+Language: English

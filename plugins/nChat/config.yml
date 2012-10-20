@@ -1,0 +1,6 @@
+messageformat: '+prefix+suffix&7+name&f: +message'
+meformat: '* +rname +message'
+colorcharacter: '~'
+timestampformat: hh:mm:ss
+joinmessage: '&e+rname sa pripojil'
+leavemessage: '&e+rname sa odpojil'

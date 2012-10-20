@@ -1,0 +1,27 @@
+table: lb-survival-world
+logging:
+  TNTEXPLOSION: true
+  LEAVESDECAY: false
+  MISCEXPLOSION: true
+  SNOWFORM: false
+  NATURALSTRUCTUREGROW: false
+  KILL: false
+  FIRE: true
+  CHAT: false
+  WATERFLOW: true
+  BONEMEALSTRUCTUREGROW: false
+  BLOCKPLACE: true
+  ENDERDRAGON: true
+  DIODEINTERACT: false
+  SNOWFADE: false
+  CHESTACCESS: false
+  ENDERMEN: true
+  SIGNTEXT: true
+  LAVAFLOW: true
+  CAKEEAT: false
+  BLOCKBREAK: true
+  SWITCHINTERACT: false
+  NOTEBLOCKINTERACT: false
+  GHASTFIREBALLEXPLOSION: true
+  CREEPEREXPLOSION: true
+  DOORINTERACT: true

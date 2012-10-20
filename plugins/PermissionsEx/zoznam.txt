@@ -1,0 +1,195 @@
+prava
+hrac
+/playerlist
+/msg
+/afk
+/spawn
+/home
+/sethome
+/rmhome
+/listhome
+/warp
+/money
+/money pay
+/money help
+
+vip
+/repair
+/color
+/playerlist
+/heal
+/msg
+/afk
+/fly
+/eternal
+/spawn
+/home
+/sethome
+/rmhome
+/listhome
+/tp hrac
+/warp
+/money
+/money pay
+/money help
+
+hladmin
+/i
+/i hrac
+/drop
+/drop hrac
+/addblacklist
+/rmblacklist
+/more
+/moreall
+/repair
+/repair hrac
+/repairall
+/repairall hrac
+/color
+/alias
+/rmalias
+/kit pre zoznam kitov
+/kit pre urcity kit
+/getid
+/getid -P hrac
+/enchant
+/enchant -P hrac
+/mob
+/mob hrac
+/playerlist
+/location
+/location hrac
+/heal
+/heal hrac
+/kill
+/kill hrac
+/clear
+/kick hrac
+/msg
+/ip hrac
+/mute hrac
+/unmute hrac
+/ban hrac
+/unban hrac
+/freeze hrac
+/afk
+/god
+/god hrac
+/fly
+/eternal
+/eternal hrac
+/gm
+/mutelist
+/spawn
+/home
+/sethome
+/rmhome
+/listhome
+/tp hrac
+/tphere hrac
+/t2p hrac hrac
+/tploc x y z
+/tptoggle hrac hrac
+/time day/night/dusk/dawn/<raw>
+/time pause/unpause
+/day
+/warp
+/warpcreate
+/wclear
+/wstorm
+/rain
+/wfreeze
+/thor
+/thor hrac
+/strike
+/strike hrac
+/money
+/money hrac
+/money pay
+/money help
+
+admin
+/repair
+/color
+/playerlist
+/location
+/heal
+/clear
+/kick hrac
+/msg
+/ip hrac
+/mute hrac
+/unmute hrac
+/ban hrac
+/unban hrac
+/afk
+/god
+/fly
+/eternal
+/spawn
+/home
+/sethome
+/rmhome
+/listhome
+/tp hrac
+/tphere hrac
+/t2p hrac hrac
+/tploc x y z
+/tptoggle hrac hrac
+/day
+/warp
+/warpcreate
+/wclear
+/wstorm
+/rain
+/wfreeze
+/thor
+/thor hrac
+/strike
+/strike hrac
+/money
+/money pay
+/money help
+
+pomocny admin
+/repair
+/color
+/playerlist
+/location
+/heal
+/kick hrac
+/msg
+/mute hrac
+/unmute hrac
+/afk
+/fly
+/spawn
+/home
+/sethome
+/rmhome
+/listhome
+/tp hrac
+/tphere hrac
+/t2p hrac hrac
+/tploc x y z
+/tptoggle hrac hrac
+/warp
+/warpcreate
+/money
+/money pay
+/money help
+
+policajt
+/playerlist
+/msg
+/afk
+/spawn
+/home
+/sethome
+/rmhome
+/listhome
+/warp
+/money
+/money pay
+/money help

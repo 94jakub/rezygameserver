@@ -1,0 +1,34 @@
+{
+  "2": {
+    "sourceCoord": {
+      "worldName": "world",
+      "x": -161,
+      "y": 63,
+      "z": 329
+    }
+  },
+  "1": {
+    "sourceCoord": {
+      "worldName": "spawn",
+      "x": -47,
+      "y": 31,
+      "z": 8
+    }
+  },
+  "6": {
+    "sourceCoord": {
+      "worldName": "world",
+      "x": -118,
+      "y": 85,
+      "z": -447
+    }
+  },
+  "4": {
+    "sourceCoord": {
+      "worldName": "spawn",
+      "x": -63,
+      "y": 31,
+      "z": 66
+    }
+  }
+}
