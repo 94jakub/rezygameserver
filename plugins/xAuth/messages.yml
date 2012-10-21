@@ -1,7 +1,7 @@
 join:
-  register: '{RED}You are not registered.{NEWLINE}{RED}Please register using /register
+  register: '{RED}Niesi zaregistrovany.{NEWLINE}{RED}Pre registraciu pouzi /register
     <password>.'
-  login: '{RED}Please log in using /login <password>.'
+  login: '{RED}Prihlas sa cez /login <password>.'
   resume: '{BRIGHTGREEN}Welcome back, your login session has been resumed.'
   error:
     lockout: You are temporarily locked out for exceeding the incorrect password threshold.
