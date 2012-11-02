@@ -3,23 +3,57 @@ groups:
     default: true
     prefix: '&7'
     permissions:
-    - admincmd.kit.vybavenie
-    - admincmd.server.motd
+    # AdminCmd
+    - admincmd.kit.vybavenie 
+    - admincmd.server.motd 
     - admincmd.server.rules
     - admincmd.server.news
+
     - admincmd.player.list
     - admincmd.player.afk
     - admincmd.spawn.tp
-    - ChestShop.shop.*
-    - iConomy.holdings
-    - iConomy.help
-    - iConomy.payment
-    - residence.create
-    - creativegates.*
     - admincmd.tp.home
     - admincmd.tp.back
-    - treeassist.autoremove
+    - admincmd.player.whois.*
+
+    # BookManager - VIP a vyssie
+
+    # ChatManager - TREBA NASTAVIT/DOROBIT
+
+    # ChestShop
+    - ChestShop.shop.buy
+    - ChestShop.shop.sell
+
+    # Citizens - TREBA NASTAVIT/DOROBIT
+
+    # ColoredSigns - hraca a vyssie
+
+    # Creative Gates
+    - creativegates.use
+
+    # iConomy
+    - iConomy.help
+    - iConomy.holdings
+    - iConomy.payment
+
+    # ItemDisplay - hrac a vyssie 
+
+    # Lockette - TREBA NASTAVIT/DOROBIT
+
+    # Multiverse Core + Portals
     - multiverse.portal.access.*
+
+    # nChat - TREBA NASTAVIT/DOROBIT
+
+    # Residence - TREBA NASTAVIT/DOROBIT
+    - Residence.create
+
+    # ResidenceSigns
+
+    # TreeAssist
+    - treeassist.autoremove
+
+    
     worlds:
       vip:
         prefix: '&f*vip* &7'
@@ -40,24 +74,22 @@ groups:
   hrac:
     default: false
     prefix: '&f[+] &7'
+    inheritance: 
+    - default
     permissions:
-    - admincmd.kit.vybavenie
-    - admincmd.server.motd
-    - admincmd.server.rules
-    - admincmd.server.news
-    - admincmd.player.list
-    - admincmd.player.afk
-    - admincmd.spawn.tp
-    - ChestShop.shop.*
-    - iConomy.holdings
-    - iConomy.help
-    - iConomy.payment
-    - residence.create
-    - creativegates.*
-    - admincmd.tp.back
-    - admincmd.tp.home
-    - treeassist.autoremove
-    - multiverse.portal.access.*
+    # AdminCmd
+    - admincmd.player.msg
+    - admincmd.player.quit
+
+    # ChestShop
+    - ChestShop.shop.create
+    - -ChestShop.shop.create.diamondgrade
+
+    # ColoredSigns - hrac a vyssie
+    - ColoredSigns.Usecolor
+
+    # ItemDisplay
+    - itemdisplay.basic
     worlds:
       vip:
         prefix: '&f*vip* [+] &7'
@@ -78,30 +110,29 @@ groups:
   vip:
     default: false
     prefix: '&e[VIP] &7'
+    inheritance:
+    - hrac
     permissions:
-    - admincmd.kit.vybavenie
-    - admincmd.item.repair
-    - admincmd.item.repairall
-    - admincmd.item.color
-    - admincmd.item.id
-    - admincmd.server.motd
-    - admincmd.server.rules
-    - admincmd.server.news
-    - admincmd.player.list
-    - admincmd.player.afk
-    - admincmd.player.heal
-    - admincmd.player.feed
-    - admincmd.spawn.tp
-    - ChestShop.shop.*
-    - iConomy.holdings
-    - iConomy.help
-    - iConomy.payment
-    - residence.create
-    - admincmd.tp.home
+    # AdminCmd
+    - admincmd.player.roll
+    - admincmd.player.reply
+    - admincmd.player.pres
+
+    # BookManager - VIP a vyssie
+    - bookmanager.unsign
+    - bookmanager.rnbook
+    - bookmanager.loadbook
+    - bookmanager.listbooks
+    - bookmanager.copy
+
+    # ChestShop
+    - ChestShop.shop.create.diamondgrade
+
+    # Creative Gates
     - creativegates.*
-    - admincmd.tp.back
-    - treeassist.autoremove
-    - multiverse.portal.access.*
+
+    # ItemDisplay
+    - itemdisplay.ignoredisplaylimit
     worlds:
       vip:
         prefix: '&f*vip* &e[VIP] &7'
@@ -122,30 +153,15 @@ groups:
   vipplus:
     default: false
     prefix: '&1[VIP+] &7'
+    inheritance:
+    - vip
     permissions:
-    - admincmd.kit.vybavenie
-    - admincmd.item.repair
-    - admincmd.item.repairall
-    - admincmd.item.color
-    - admincmd.item.id
-    - admincmd.server.motd
-    - admincmd.server.rules
-    - admincmd.server.news
-    - admincmd.player.list
-    - admincmd.tp.home
-    - admincmd.player.afk
+    # AdminCmd
     - admincmd.player.heal
     - admincmd.player.feed
-    - admincmd.spawn.tp
-    - ChestShop.shop.*
-    - iConomy.holdings
-    - iConomy.help
-    - iConomy.payment
-    - residence.create
-    - creativegates.*
-    - admincmd.tp.back
-    - treeassist.autoremove
-    - multiverse.portal.access.*
+
+    # BookManager - VIP a vyssie
+    - bookmanager.savebook
     worlds:
       vip:
         prefix: '&f*vip* &1[VIP+] &7'
@@ -166,24 +182,25 @@ groups:
   pomocnik:
     default: false
     prefix: '&b[POMOCNIK] &7'
+    inheritance:
+    - vip
     permissions:
-    - admincmd.kit.vybavenie
-    - admincmd.server.motd
-    - admincmd.server.rules
-    - admincmd.server.news
-    - admincmd.player.list
-    - admincmd.player.afk
+    # AdminCmd
+    - admincmd.item.id
+    - admincmd.mob.kill
     - admincmd.spawn.tp
+    - admincmd.tp.*
+    - admincmd.weather.clear
+    - admincmd.weather.rain
+    - admincmd.player.played
+
+    # ChestShop
     - ChestShop.shop.*
-    - iConomy.holdings
-    - iConomy.help
-    - iConomy.payment
-    - residence.create
-    - creativegates.*
-    - admincmd.tp.back
-    - admincmd.tp.home
-    - treeassist.autoremove
-    - multiverse.portal.access.*
+    - ChestShop.mod
+
+    # ItemDisplay
+    - itemdisplay.*
+    - -itemdisplay.nodecrease
     worlds:
       vip:
         prefix: '&f*vip* &b[POMOCNIK] &7'
@@ -205,42 +222,71 @@ groups:
     default: false
     prefix: '&2[MOD] &7'
     permissions:
-    - admincmd.kit.vybavenie
-    - admincmd.item.repair
-    - admincmd.item.repairall
-    - admincmd.item.repair.other
-    - admincmd.item.repairall.other
+    # AdminCmd
+    - admincmd.kit.*
+
+    - admincmd.item.repair.*
+    - admincmd.item.repairall.*
     - admincmd.item.color
     - admincmd.item.id
+
+    - admincmd.mob.kill
+
     - admincmd.server.motd
     - admincmd.server.rules
     - admincmd.server.news
+
     - admincmd.player.list
-    - admincmd.player.afk
+    - admincmd.player.loc.*
     - admincmd.player.heal
-    - admincmd.player.feed
-    - admincmd.player.loc
-    - admincmd.player.loc.other
+    - admincmd.player.clear.*
     - admincmd.player.kick
-    - admincmd.player.ip
-    - admincmd.player.ip.other
+    - admincmd.player.msg
+    - admincmd.player.ip.* 
     - admincmd.player.mute
     - admincmd.player.ban
-    - admincmd.player.god
-    - admincmd.player.fly
-    - admincmd.player.eternal
-    - admincmd.spawn.tp
+    - admincmd.player.freeze
+    - admincmd.player.afk
+    - admincmd.player.roll
+    - admincmd.player.played
+    - admincmd.player.feed
+    - admincmd.player.fakequit
+    - admincmd.player.whois.*
+    - admincmd.player.reply
+    - admincmd.player.pres
+    - admincmd.player.quit
+    - admincmd.player.mutelist
+    - admincmd.player.banlist
+
     - admincmd.tp.*
-    - admincmd.time.*
-    - admincmd.weather.*
+    - admincmd.spawn.tp
+    - admincmd.weather.clear
+    - admincmd.weather.rain
+
+    # BookManager
+    - bookmanager.admin
+
+    # ChestShop
     - ChestShop.shop.*
-    - iConomy.holdings
-    - iConomy.help
-    - residence.create
-    - iConomy.payment
+    - ChestShop.mod
+
+    # Creative Gates
     - creativegates.*
-    - treeassist.autoremove
-    - multiverse.portal.access.*
+
+    # iConomy
+    - iConomy.help
+    - iConomy.holdings
+    - iConomy.payment
+
+    # ItemDisplay
+    - itemdisplay.*
+    - -itemdisplay.nodecrease
+
+    # Residence
+    - Residence.create
+
+    # ResidenceSigns
+    - rs.admin
     worlds:
       vip:
         prefix: '&f*vip* &2[MOD] &7'
@@ -262,51 +308,111 @@ groups:
     default: false
     prefix: '&3[ADMIN] &7'
     permissions:
-    - admincmd.kit.vybavenie
-    - admincmd.item.repair
-    - admincmd.item.repairall
-    - admincmd.item.repair.other
-    - admincmd.item.repairall.other
+    # AdminCmd
+    - admincmd.kit.*
+
+    - admincmd.item.add
+    - admincmd.item.blacklist
+    - admincmd.item.repair.*
+    - admincmd.item.repairall.*
     - admincmd.item.color
     - admincmd.item.id
+    - admincmd.item.enchant
+
+    - admincmd.mob.spawn
+    - admincmd.mob.kill
+    - admincmd.mob.limit
+    - admincmd.mob.spawner
+
     - admincmd.server.motd
     - admincmd.server.rules
     - admincmd.server.news
+    - admincmd.server.set.motd
+    - admincmd.server.set.news
+
     - admincmd.player.list
-    - admincmd.player.afk
-    - admincmd.player.heal
-    - admincmd.player.heal.other
-    - admincmd.player.feed
-    - admincmd.player.feed.other
-    - admincmd.player.loc
-    - admincmd.player.loc.other
+    - admincmd.player.loc.*
+    - admincmd.player.heal.*
+    - admincmd.player.kill.*
+    - admincmd.player.clear.*
     - admincmd.player.kick
-    - admincmd.player.ip
-    - admincmd.player.ip.other
+    - admincmd.player.kickall
+    - admincmd.player.msg
+    - admincmd.player.spymsg
+    - admincmd.player.ip.* 
     - admincmd.player.mute
     - admincmd.player.ban
+    - admincmd.player.invisible
+    - admincmd.player.freeze
+    - admincmd.player.afk
     - admincmd.player.god
     - admincmd.player.fly
-    - admincmd.player.fly.other
+    - admincmd.player.roll
+    - admincmd.player.played
     - admincmd.player.eternal
-    - admincmd.player.eternal.other
-    - admincmd.player.kill
-    - admincmd.player.kill.other
-    - admincmd.player.clear
-    - admincmd.player.freeze
-    - admincmd.player.clear.other
-    - admincmd.spawn.tp
+    - admincmd.player.feed.*
+    - admincmd.player.fakequit
+    - admincmd.player.whois.*
+    - admincmd.player.reply
+    - admincmd.player.pres
+    - admincmd.player.experience
+    - admincmd.player.potion
+    - admincmd.player.quit
+    - admincmd.player.search
+    - admincmd.player.withdraw.*
+    - admincmd.player.mutelist
+    - admincmd.player.banlist
+    - admincmd.player.unmuteall
+    - admincmd.player.openinv
+
     - admincmd.tp.*
+    - admincmd.spawn.*
+    - admincmd.admin.home
     - admincmd.time.*
     - admincmd.weather.*
+
+    # BookManager
+    - bookmanager.admin
+
+    # ChatManager - TREBA NASTAVIT/DOROBIT
+
+    # ChestShop
     - ChestShop.shop.*
-    - iConomy.holdings
-    - iConomy.help
-    - iConomy.payment
-    - residence.create
+    - ChestShop.admin
+
+    # Citizens - TREBA NASTAVIT/DOROBIT
+
+    # ColoredSigns
+
+    # Creative Gates
     - creativegates.*
-    - treeassist.autoremove
-    - multiverse.portal.access.*
+
+    # iConomy
+    - iConomy.help
+    - iConomy.holdings
+    - iConomy.payment
+    - iConomy.accounts
+
+    # ItemDisplay
+    - itemdisplay.*
+    - -itemdisplay.nodecrease
+
+    # Lockette - TREBA NASTAVIT/DOROBIT
+
+    # Multiverse Core + Portals
+
+    # nChat - TREBA NASTAVIT/DOROBIT
+
+    # Residence
+    - Residence.create
+    - Residence.admin
+
+    # ResidenceSigns
+    - rs.admin
+
+    # TreeAssist
+    - treeassist.*
+    - -treeassist.replant
     worlds:
       vip:
         prefix: '&f*vip* &3[ADMIN] &7'
